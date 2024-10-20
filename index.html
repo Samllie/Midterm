@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./D.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style></style>
+</head>
+
+<body  background-repeat: no-repeat;" class= "d-flex h-100 text-center text-bg-dark" data-new-gr-c-s-check-loaded="14.1202.0" data-gr-ext-installed=" background") >
+  
+  <div class="bg-image"></div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="check2" viewBox="0 0 16 16">
+      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+    </symbol>
+    <symbol id="circle-half" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+    </symbol>
+    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+      <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+      <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+    </symbol>
+    <symbol id="sun-fill" viewBox="0 0 16 16">
+      <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+    </symbol>
+  </svg>
+
+  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+      <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+      <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
+          <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+          Light
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+          <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+          Dark
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+          <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
+          Auto
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<header class="mb-auto sticky-top">  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form action="login.html">
+          <button class="btn btn-outline-success" type="submit" >Log In </button>
+        </form>
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+<main class="px-3">
+  
+  <h1>All About Me.</h1>
+  <h2>Welcome to My Corner of the Web!
+
+    Hey there! I’m Ezekiel Robin Codillo, an Anime and Game lover, and this is my personal space to share my thoughts, experiences, and ideas with the world. Whether it’s about the things i like, my hobbies, my stories, and many more interesting facts about me, I hope you’ll find something here that resonates with you.
+    
+    Life is a journey, and this blog is my way of capturing the moments and lessons along the way. So, grab a cup of coffee (or tea!), settle in, and join me as I explore my world. Let’s inspire each other, learn together, and, most importantly, have some fun.
+    
+    Thanks for stopping by—I’m so glad you’re here!</h2>
+    <hr>
+    <h3>Why Anime and Video Games Are the Perfect Combo</h3>
+      <img src="./resources/img/reddead.jfif" alt=""> <img src="./resources/img/Call of Duty 4_ Modern Warfare (2007).jfif" alt="">
+      <H4>As a fan of both anime and video games, I’ve always felt like they’re two sides of the same coin. The storytelling, world-building, and emotional journeys in both mediums keep us coming back for more. Whether you’re diving into a 50-episode anime series or an open-world RPG that could take 100+ hours to finish, both offer immersive experiences that resonate on a deeper level.
+      <br>
+      <img src="./resources/img/Ghost Of Tsushima Game Poster - شبح تسوشيما, Cesar Jaffar.jfif" alt=""> <img src="./resources/img/Big Poster Gamer GTA 4 LO001 Tamanho 90x60 cm.jfif" alt="">
+      <img src="./resources/" alt="">
+      <br>
+      <h3>Storytelling Across Mediums</h3>
+      <h4>One of the best parts about anime and video games is how they tell stories. In anime, we’re used to intricate character arcs and world-building that make us feel like we’ve been transported into another reality. Video games do the same, especially when games like The Legend of Zelda or Final Fantasy create complex universes and let us interact with them. Games like Persona 5 even merge both worlds by featuring an anime art style and narrative elements that feel straight out of your favorite series.</h4>
+      <br>
+      <img src="./resources/img/AOt.jfif" alt="">
+      <br>
+      <h3>Characters You Can't Forget</h3>
+      <img src="./resources/img/🔥𝑴𝒖𝒓𝒂𝒕𝒂 𝑯𝒊𝒎𝒆𝒌𝒐🔥.jfif" alt=""> <img src="./resources/img/Call of Duty_ Modern Warfare 2 - Key Art Wall Poster.jfif" alt=""> <img src="./resources/img/Prototype (игра) — Википедия.jfif" alt="">
+      <h4>Both anime and video games excel at creating characters we fall in love with—or love to hate. Take Naruto or One Piece, where you follow characters through thick and thin, watching them grow over time. In games like The Witcher 3 or The Last of Us, you experience this same depth, where your connection with the characters makes every decision you make feel personal.</h4>
+      <br>
+      <img src="./resources/img/181 Of The Best Anime Series So Far.jfif" alt=""> <img src="./resources/img/luffynaruto.jfif" alt=""> <img src="./resources/img/Pin on Idea Pins by you _ Fond d'ecran dessin, Mec anime, One piece comic.jfif" alt="">
+      <br>
+      <h3>Art Styles and Aesthetics</h3>
+      <h4>Let’s not forget the visual appeal! Anime is known for its unique and colorful art styles, and many games have taken inspiration from it. Titles like Ni no Kuni and Genshin Impact blur the line between game and anime, giving us visually stunning experiences that feel like you’re playing through an anime episode. These games allow fans to not only watch an epic battle but also take control of it.</h4>
+      <br>
+      <img src="./resources/img/Screenshot (352).png" alt="">
+      <br>
+      <h3>Fan Culture and Fandoms</h3>
+      <h4>Let’s be honest—if you’re an anime fan, there’s a good chance you’re into gaming, too, and vice versa. The crossover between these fandoms is real. From conventions where you can cosplay your favorite Attack on Titan character or meet people who are just as obsessed with Kingdom Hearts as you, the community aspect is strong. Online discussions, fan art, and theories only enhance the experience.</h4>
+      
+      <h3>Conclusion</h3>
+      <h4>Anime and video games offer more than just entertainment—they’re immersive experiences that let us explore new worlds, live different lives, and connect with others who share our passions. Whether you're watching a new anime series or getting lost in a game for hours, the two are inseparable for me, and I’m sure for many of you too.</h4>
+      <br>
+      <br>
+      <hr>
+      <H2>My Love for Anime, Video Games, and How GTA, Genshin Impact, and Warhammer 40,000 Fit Right In</H2>
+      <img src="./resources/" alt="">
+      <br>
+      <br>
+<h3>As someone who's passionate about both anime and video games, I find that certain games really resonate with me on a deeper level. Some of my all-time favorites, like Grand Theft Auto (GTA), Genshin Impact, and Warhammer 40,000, share a lot with the best aspects of anime: deep storytelling, incredible world-building, and, of course, unforgettable characters.</h3>
+
+<h3>GTA: The Ultimate Open-World Playground</h3>
+<img src="./resources/img/GTA Game Poster.jfif" alt=""> <img src="./resources/img/vice.jfif" alt="">
+<h2>My love for Grand Theft Auto started years ago, and it's a series that keeps pulling me back in. The freedom to roam, explore, and cause chaos in a detailed, living world is unmatched. What GTA does best is create immersive environments where every street, building, and NPC feels alive. The games’ cinematic quality, intricate storylines, and memorable characters feel like a gritty, action-packed anime set in a modern city.</h2>
+<br><img src="./resources/img/download (1).jfif" alt=""> <img src="./resources/img/gta5.jfif" alt="">
+<h2>There's also a unique sense of progression in GTA, where you're not just following a script but shaping the story with your choices. The dynamic missions and open-world approach make it one of my go-to games when I just want to get lost in an alternate reality—similar to how I lose myself in long-running anime series.</h2>
+<br>
+<br>
+<h3>Genshin Impact: A Beautiful Blend of Anime and Gaming</h3>
+<img src="./resources/img/Códigos de Genshin Impact Hoje 5 de junho de 2022 - CenárioMT.jfif" alt=""> <img src="./resources/img/Genshin Impact Developers Confirm Next Closed Beta.jfif" alt="">
+<h4>Genshin Impact is the perfect blend of anime aesthetics and RPG gameplay. From its vibrant art style to its gacha system that brings new characters into the fold, every aspect of the game feels like you're playing through an anime. The story-driven exploration, epic boss fights, and sprawling open-world adventures make it a game I can sink hours into without realizing it.</h4>
+<img src="./resources/img/Register - Login.gif" alt="">
+<h4>I’m always impressed by how Genshin Impact draws from anime’s emotional storytelling. Whether it’s the heartfelt moments between characters or the grand, sweeping landscapes that rival some of the best anime visuals, it’s a game that satisfies my craving for both great animation and gameplay.</h4>
+<br>
+<br>
+<h3>Warhammer 40,000: Immersive Lore and Tactical Gameplay</h3>
+<img src="./resources/img/Exemplary Battles of the 41st Millennium_ Recreate an Iconic Scenario with Lieutenant Titus - Warhammer Community.jfif" alt=""> <img src="./resources/img/Warhammer 40,000_ SPACE MARINE 2 - Reveal Trailer _ The Game Awards 2021, Alfred MATHIEU.jfif" alt="">
+<h4>While GTA and Genshin Impact hook me with their freedom and visuals, Warhammer 40,000 satisfies my need for deep lore and strategic gameplay. The grimdark universe of Warhammer 40K is a place where I can get lost in the intense narratives and sprawling histories of different factions. The world-building in Warhammer rivals the most detailed anime universes, and I love diving into its endless stories of epic space battles and political intrigue.</h4>
+<img src="./resources/img/Dreadnought by GeorgeVostrikov on DeviantArt.jfif" alt=""> <img src="./resources/img/Warhammer 40k - space marine.jfif" alt=""> <img src="./resources/img/Well of Eternity.jfif" alt="">
+<h4>The tabletop origins of Warhammer combine with video games like Dawn of War and Space Marine to create a blend of tactical depth and action that scratches a very specific itch. The intense strategy involved in 40K reminds me of the cerebral challenge found in some of the best anime series, where battles are fought with both brains and brawn.</h4>
+<img src="./resources/img/Warhammer 40k - space marine (1).jfif" alt=""> <img src="./resources/img/Marneus Calgar, Lord Defender of Greater Ultramar and the Lord of Macragge, caraxes.jfif" alt=""> <img src="./resources/img/warhammer.jfif" alt="">
+<hr>
+<h2>How These Games Reflect My Love for Anime</h2>
+<h4>Each of these games—GTA, Genshin Impact, and Warhammer 40,000—has something special that connects to my love for anime. GTA offers a world of chaotic action and compelling narratives, much like a gritty urban anime. Genshin Impact immerses me in an anime-like world where I can explore, fight, and discover deep, emotional stories. And Warhammer 40K scratches my itch for lore-rich universes and tactical challenges that feel like they’re straight out of a complex anime battle saga.</h4>
+
+<h2>Conclusion</h2>
+<h4>These games represent different facets of my love for storytelling, exploration, and strategic thinking. Whether I’m driving through the streets of Los Santos in GTA, collecting new characters in Genshin Impact, or commanding armies in the grimdark future of Warhammer 40,000, they all have that immersive, anime-like quality that keeps me coming back.</h4>
+
+
+</main>
+
+<footer class="mt-auto text-white-50">
+  <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+</footer>
+</div>
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
